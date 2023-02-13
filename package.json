@@ -1,0 +1,36 @@
+{
+  "name": "testemeria",
+  "version": "1.0.0",
+  "description": "test by Anas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anas Slaoui",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-multi-reporters": "^1.6.2",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "process": "^0.11.10",
+    "webpack-preprocessor": "^0.1.12"
+  },
+  "compilerOptions": {
+    "lib": [
+      "ES2018"
+    ],
+    "target": "ES2018"
+  }
+}
